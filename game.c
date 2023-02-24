@@ -79,10 +79,7 @@ int main(int argc, char** argv) {
 
     insertBeginning(snake, startingx, startingy);
     insertEnd(snake, startingx + 25, startingy);
-    insertBeginning(snake, startingx - 25, startingy);
-    insertBeginning(snake, startingx - 50, startingy);
-    insertBeginning(snake, startingx - 75, startingy);
-    
+
     
     SDL_FreeSurface(surface1);
     SDL_FreeSurface(surface2);
